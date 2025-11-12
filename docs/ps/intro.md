@@ -1,5 +1,6 @@
 ---
 id: ps
+slug: /ps
 title: ProStreet
 sidebar_position: 1
 ---

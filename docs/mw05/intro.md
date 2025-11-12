@@ -1,5 +1,6 @@
 ---
 id: mw05
+slug: /mw05
 title: Most Wanted (2005)
 sidebar_position: 1
 ---

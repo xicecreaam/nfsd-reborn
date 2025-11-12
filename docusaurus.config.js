@@ -97,6 +97,7 @@ const config = {
             position: 'left',
             label: 'Underground 1',
           },
+          { to: '/ug1', label: 'Underground 1', position: 'left' },
           {to: '/ug2', label: 'Underground 2', position: 'left'},
           {to: '/mw05', label: 'Most Wanted (2005)', position: 'left'},
           {to: '/c', label: 'Carbon', position: 'left'},

@@ -1,5 +1,6 @@
 ---
 id: uc
+slug: /uc
 title: Undercover
 sidebar_position: 1
 ---
