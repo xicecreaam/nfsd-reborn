@@ -8,7 +8,7 @@ export default function Home() {
       title="Welcome to Need for SpeedDocs"
       description="This website is aiming to rehost speedrunning documentation for most Need for Speed games that has been shut down by Balathruin himself, creator of the original website. Currently looking for contributors to expand.d."
     >
-      <main style={{ padding: '2rem', maxWidth: '900px', margin: '0 auto' }}>
+      <main style={{ padding: '2rem', maxWidth: '900px', margin: '0 auto', textAlign: 'left' }}>
         <header>
           <h1 style={{ fontSize: '2.5rem', fontWeight: '700' }}>
             Welcome to Need for SpeedDocs
