@@ -25,29 +25,16 @@ export default function Home() {
           </h2>
           <ul style={{ listStyleType: 'none', padding: 0, marginTop: '1rem' }}>
             <li style={{ marginBottom: '0.5rem' }}>
-              <Link to="#" style={{ color: '#f55' }}>Need for Speed: Underground 1</Link>{' '}
-              by
-               <Link to="#" style={{ color: '#f55' }}>LokyZen </Link>{' '}
-               (FG),
-               <Link to="#" style={{ color: '#f55' }}>Scorpion</Link>{' '}
-                (DT & FWD DS) and
-               <Link to="#" style={{ color: '#f55' }}>GTB</Link>{' '}
-                (RWD DS)
+              <Link to="#" style={{ color: '#f55' }}>Need for Speed: Underground 1</Link>{' '} by <Link to="#" style={{ color: '#f55' }}>LokyZen </Link>{'https://www.speedrun.com/users/LokyZen'} (FG), <Link to="#" style={{ color: '#f55' }}>Scorpion</Link>{'https://www.youtube.com/@hornoaca'} (DT & FWD DS) and <Link to="#" style={{ color: '#f55' }}>GTB</Link>{'https://www.youtube.com/@gamerthebanning'} (RWD DS)
             </li>
             <li style={{ marginBottom: '0.5rem' }}>
-              <Link to="#" style={{ color: '#f55' }}>Need for Speed: Underground 2</Link>{' '}
+              <Link to="#" style={{ color: '#f55' }}>Need for Speed: Underground 2</Link>{' '} by <Link to="#" style={{ color: '#f55' }}>SlivenKage</Link>{'https://www.speedrun.com/users/SlivenKage'}
             </li>
             <li style={{ marginBottom: '0.5rem' }}>
-              <Link to="#" style={{ color: '#f55' }}>Need for Speed: Most Wanted (2005)</Link>{' '}
-              by
-               <Link to="#" style={{ color: '#f55' }}>SlivenKage</Link>{' '}
+              <Link to="#" style={{ color: '#f55' }}>Need for Speed: Most Wanted (2005)</Link>{' '} by <Link to="#" style={{ color: '#f55' }}>SlivenKage</Link>{'https://www.speedrun.com/users/SlivenKage'}
             </li>
             <li style={{ marginBottom: '0.5rem' }}>
-              <Link to="#" style={{ color: '#f55' }}>Need for Speed: Carbon</Link>{' '}
-              by
-               <Link to="#" style={{ color: '#f55' }}>Artacer</Link>{' '}
-              and 
-               <Link to="#" style={{ color: '#f55' }}>Cousin</Link>{' '}
+              <Link to="#" style={{ color: '#f55' }}>Need for Speed: Carbon</Link>{' '} by <Link to="#" style={{ color: '#f55' }}>Artacer</Link>{'https://web.archive.org/web/20250422161151/https://www.speedrun.com/users/Artacer'} and  <Link to="#" style={{ color: '#f55' }}>Cousin</Link>{'https://www.speedrun.com/users/Cousin'}
             </li>
             <li style={{ marginBottom: '0.5rem' }}>
               <Link to="#" style={{ color: '#f55' }}>Need for Speed: ProStreet</Link>{' '}
