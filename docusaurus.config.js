@@ -30,7 +30,7 @@ const config = {
   organizationName: 'xicecreaam', // Usually your GitHub org/user name.
   projectName: 'nfsd-recreation', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -96,10 +96,12 @@ const config = {
             position: 'left',
             label: 'Underground 1)',
           },
-          {to: '/UG2', label: 'Underground 2', position: 'left'},
-          {to: '/MW05', label: 'Most Wanted (2005)', position: 'left'},
-          {to: '/C', label: 'Carbon', position: 'left'},
-          {to: '/PS', label: 'ProStreet', position: 'left'},
+          {to: '/ug2', label: 'Underground 2', position: 'left'},
+          {to: '/mw05', label: 'Most Wanted (2005)', position: 'left'},
+          {to: '/c', label: 'Carbon', position: 'left'},
+          {to: '/ps', label: 'ProStreet', position: 'left'},
+          {to: '/uc', label: 'Undercover', position: 'left'},
+          {to: '/tr', label: 'The Run', position: 'left'},
           {
             href: 'https://linktr.ee/xicecreaam',
             label: 'Linktree',
@@ -111,12 +113,15 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Black Box Games',
             items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
+              { label: 'Underground 1', to: '/ug1'},
+              { label: 'Underground 2', to: '/ug2'},
+              { label: 'Most Wanted (2005)', to: '/mw05'},
+              { label: 'Carbon', to: '/c'},
+              { label: 'ProStreet', to: '/ps'},
+              { label: 'Undercover', to: '/uc'},
+              { label: 'The Run', to: '/tr'},
             ],
           },
           {
