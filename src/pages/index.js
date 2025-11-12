@@ -25,25 +25,25 @@ export default function Home() {
           </h2>
           <ul style={{ listStyleType: 'none', padding: 0, marginTop: '1rem' }}>
             <li style={{ marginBottom: '0.5rem' }}>
-              <Link to="#" style={{ color: '#f55' }}>Need for Speed: Underground 1</Link>{' '} by <Link to="#" style={{ color: '#f55' }}>LokyZen </Link>{'https://www.speedrun.com/users/LokyZen'} (FG), <Link to="#" style={{ color: '#f55' }}>Scorpion</Link>{'https://www.youtube.com/@hornoaca'} (DT & FWD DS) and <Link to="#" style={{ color: '#f55' }}>GTB</Link>{'https://www.youtube.com/@gamerthebanning'} (RWD DS)
+              <Link to="#" style={{ color: '#f55' }}>Need for Speed: Underground 1</Link> by <Link to="https://www.speedrun.com/users/LokyZen" style={{ color: '#f55' }}>LokyZen </Link> (FG), <Link to="https://www.youtube.com/@hornoaca" style={{ color: '#f55' }}>Scorpion</Link> (DT & FWD DS) and <Link to="https://www.youtube.com/@gamerthebanning" style={{ color: '#f55' }}>GTB</Link> (RWD DS)
             </li>
             <li style={{ marginBottom: '0.5rem' }}>
-              <Link to="#" style={{ color: '#f55' }}>Need for Speed: Underground 2</Link>{' '} by <Link to="#" style={{ color: '#f55' }}>SlivenKage</Link>{'https://www.speedrun.com/users/SlivenKage'}
+              <Link to="#" style={{ color: '#f55' }}>Need for Speed: Underground 2</Link> by <Link to="https://www.speedrun.com/users/SlivenKage" style={{ color: '#f55' }}>SlivenKage</Link>
             </li>
             <li style={{ marginBottom: '0.5rem' }}>
-              <Link to="#" style={{ color: '#f55' }}>Need for Speed: Most Wanted (2005)</Link>{' '} by <Link to="#" style={{ color: '#f55' }}>SlivenKage</Link>{'https://www.speedrun.com/users/SlivenKage'}
+              <Link to="#" style={{ color: '#f55' }}>Need for Speed: Most Wanted (2005)</Link> by <Link to="https://www.speedrun.com/users/SlivenKage" style={{ color: '#f55' }}>SlivenKage</Link>
             </li>
             <li style={{ marginBottom: '0.5rem' }}>
-              <Link to="#" style={{ color: '#f55' }}>Need for Speed: Carbon</Link>{' '} by <Link to="#" style={{ color: '#f55' }}>Artacer</Link>{'https://web.archive.org/web/20250422161151/https://www.speedrun.com/users/Artacer'} and  <Link to="#" style={{ color: '#f55' }}>Cousin</Link>{'https://www.speedrun.com/users/Cousin'}
+              <Link to="#" style={{ color: '#f55' }}>Need for Speed: Carbon</Link> by <Link to="https://web.archive.org/web/20250422161151/https://www.speedrun.com/users/Artacer" style={{ color: '#f55' }}>Artacer</Link> and  <Link to="https://www.speedrun.com/users/Cousin" style={{ color: '#f55' }}>Cousin</Link>
             </li>
             <li style={{ marginBottom: '0.5rem' }}>
-              <Link to="#" style={{ color: '#f55' }}>Need for Speed: ProStreet</Link>{' '}
+              <Link to="#" style={{ color: '#f55' }}>Need for Speed: ProStreet</Link> by <Link to="https://www.speedrun.com/users/icecreaam" style={{ color: '#f55' }}>IceCream</Link>
             </li>
             <li style={{ marginBottom: '0.5rem' }}>
-              <Link to="#" style={{ color: '#f55' }}>Need for Speed: Undercover </Link>{' '}
+              <Link to="#" style={{ color: '#f55' }}>Need for Speed: Undercover </Link>
             </li>
             <li style={{ marginBottom: '0.5rem' }}>
-              <Link to="#" style={{ color: '#f55' }}>Need for Speed: The Run</Link>{' '}
+              <Link to="#" style={{ color: '#f55' }}>Need for Speed: The Run</Link> by <Link to="https://www.speedrun.com/users/ItzSamOnPC" style={{ color: '#f55' }}>ItzSamOnPC</Link>
             </li>
           </ul>
         </section>
