@@ -20,7 +20,7 @@ export default function Home() {
         </header>
 
         <section style={{ marginTop: '3rem' }}>
-          <h2 style={{ fontSize: "30px", paddingLeft: '10px' }}>
+          <h2 style={{ fontSize: "30px" }}>
             Available games
           </h2>
           <ul style={{ listStyleType: 'none', padding: 0, marginTop: '1rem' }}>
