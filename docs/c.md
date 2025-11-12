@@ -1,4 +1,6 @@
 ---
+id: c
+title: Carbon
 sidebar_position: 1
 ---
 
