@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <Layout
       title="Welcome to Need for SpeedDocs"
-      description="This website is aiming to rehost speedrunning documentation for most Need for Speed games that has been shut down by Balathruin himself, creator of the original website. Currently looking for contributors to expand.d."
+      description="This website is aiming to rehost speedrunning documentation for most Need for Speed games that has been shut down by Balathruin himself, creator of the original website. Currently looking for contributors to expandd."
     >
       <main style={{ padding: '2rem', maxWidth: '2000px', textAlign: 'left' }}>
         <header>
@@ -14,7 +14,7 @@ export default function Home() {
             Welcome to Need for SpeedDocs
           </h1>
           <p style={{ marginTop: '0.5rem', fontSize: '18px', color: '#ccc' }}>
-            This website is aiming to rehost speedrunning documentation for most Need for Speed games that has been shut down by Balathruin himself, creator of the original website.
+            This website is aiming to rehost speedrunning documentation for most Need for Speed games that has been shut down by Balathruin himself, creator of the original website.<br />
             Currently looking for contributors to expand.
           </p>
         </header>
@@ -27,9 +27,9 @@ export default function Home() {
             <li style={{ marginBottom: '0.5rem' }}>
               <Link to="#" style={{ color: '#f55' }}>Need for Speed: Underground 1</Link>{' '}
               by
-              <Link to="#" style={{ color: '#f55' }}>LokyZen </Link>{' '}
-               (FG), 
-              <Link to="#" style={{ color: '#f55' }}>Scorpion</Link>{' '}
+               <Link to="#" style={{ color: '#f55' }}>LokyZen </Link>{' '}
+               (FG),
+               <Link to="#" style={{ color: '#f55' }}>Scorpion</Link>{' '}
                 (DT & FWD DS) and
                <Link to="#" style={{ color: '#f55' }}>GTB</Link>{' '}
                 (RWD DS)
@@ -40,14 +40,14 @@ export default function Home() {
             <li style={{ marginBottom: '0.5rem' }}>
               <Link to="#" style={{ color: '#f55' }}>Need for Speed: Most Wanted (2005)</Link>{' '}
               by
-              <Link to="#" style={{ color: '#f55' }}>SlivenKage</Link>{' '}
+               <Link to="#" style={{ color: '#f55' }}>SlivenKage</Link>{' '}
             </li>
             <li style={{ marginBottom: '0.5rem' }}>
               <Link to="#" style={{ color: '#f55' }}>Need for Speed: Carbon</Link>{' '}
               by
-              <Link to="#" style={{ color: '#f55' }}>Artacer</Link>{' '}
+               <Link to="#" style={{ color: '#f55' }}>Artacer</Link>{' '}
               and 
-              <Link to="#" style={{ color: '#f55' }}>Cousin</Link>{' '}
+               <Link to="#" style={{ color: '#f55' }}>Cousin</Link>{' '}
             </li>
             <li style={{ marginBottom: '0.5rem' }}>
               <Link to="#" style={{ color: '#f55' }}>Need for Speed: ProStreet</Link>{' '}
