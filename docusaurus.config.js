@@ -92,7 +92,7 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'gamesSidebar',
+            sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Underground 1)',
           },
