@@ -90,10 +90,10 @@
   padding: 0;
 }
 
-/*.container {
+.container {
   max-width: 100% !important;
   width: 100% !important;
-}*/
+}
 
 /* === Couleur rouge du texte de la section active dans le fil d’Ariane === */
 .breadcrumbs__link--active {
@@ -103,4 +103,8 @@
 /* Devient rouge uniquement au survol */
 .breadcrumbs__item:first-child a:hover svg path {
   fill: #d94d4c;
+}
+
+:root {
+  --content-max-width: 1320px; /* tu peux ajuster ici */
 }
