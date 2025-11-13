@@ -48,7 +48,7 @@
 }
 
 .theme-doc-sidebar-container {
-  width: 250 !important;
+  width: 240 !important;
   flex: 0 0 250px;
 }
 
@@ -72,6 +72,7 @@
   overflow-wrap: break-word;
   text-overflow: ellipsis;
   padding: 4px 8px;
+  margin: 2px 0;
 }
 
 .menu__caret {
@@ -87,4 +88,9 @@
 .menu__list-item {
   margin: 0;
   padding: 0;
+}
+
+.container {
+  max-width: 100% !important;
+  width: 100% !important;
 }
