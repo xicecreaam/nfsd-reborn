@@ -43,7 +43,7 @@
 
 /* TITRE DE LA CARTE */
 .cardTitle {
-  min-height: auto;
+  min-height: 26px;
   font-size: 1.25rem;
   font-weight: 700;
   color: var(--ifm-color-content) !important;
