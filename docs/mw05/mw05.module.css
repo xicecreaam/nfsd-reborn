@@ -1,105 +1,73 @@
-/* --- GRILLE DES CARTES (Docusaurus + spacing 32px) --- */
+/* CONTENEUR DE GRILLE */
 .cardsRow {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Espacement vertical */
+/* COLONNE */
 .cardsRow > .col {
-  flex: 0 0 33.333%;
-  max-width: 33.333%;
-  padding: 0 16px;
-  margin-bottom: 32px;
+  flex: 1 1 0; /* will shrink/grow */
+  max-width: 33.3333%;
+  box-sizing: border-box;
+  padding: 0 32px;
+  margin-bottom: 32px; /* écart vertical */
 }
 
-/* Mobile : 1 colonne */
-@media (max-width: 996px) {
-  .cardsRow > .col {
-    flex: 1 0 100%;
-    max-width: 100%;
-    margin-right: 0;
-  }
-}
-
-/* --- CARTE GÉNÉRALE --- */
-
+/* CARTE */
 .card {
-  display: block;
+  width: 100%; /* pour remplir la colonne */
+  min-width: 520px;
   height: 125px;
-  padding: 33px;
-
-  background: var(--ifm-background-surface-color);
+  padding: 32px;
   border: 1px solid #2d2e30;
   border-radius: 12px;
-  box-shadow: 0 1.5px 3px #00000026;
-
+  background-color: var(--ifm-background-surface-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
   text-decoration: none !important;
   color: inherit !important;
-
+  box-sizing: border-box;
   transition: border-color .2s ease, box-shadow .2s ease;
 }
 
 .card:hover {
   border-color: #d94c4c;
-  box-shadow: 0 1.5px 6px #00000060;
+  box-shadow: 0 1.5px 6px rgba(0,0,0,0.38);
 }
 
-/* --- TITRE DES CARTES --- */
-
+/* TITRE DE LA CARTE */
 .cardTitle {
   font-size: 1.2rem;
   font-weight: 700;
-  color: var(--ifm-color-content) !important; /* blanc */
+  color: var(--ifm-color-content) !important;
   margin: 0 0 12px 0;
-  line-height: 1.2;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-/* --- TEXTE DES CARTES --- */
-
+/* DESCRIPTION DE LA CARTE */
 .text--truncate {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-}
-
-/* --- CARTE NEXT (en bas de page) --- */
-
-.nextCardWrapper {
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 32px;
-}
-
-.nextCard {
-  display: block;
-  width: 804px;
-  padding: 33px;
-
-  border-radius: 12px;
-  background: var(--ifm-background-surface-color);
-  border: 1px solid var(--ifm-color-emphasis-200);
-
-  transition: border-color .2s ease, box-shadow .2s ease;
-  text-decoration: none !important;
-}
-
-.nextCard:hover {
-  border-color: #d94c4c;
-  box-shadow: 0 1.5px 6px #00000060;
-}
-
-.nextCardTitle {
-  color: var(--ifm-color-content) !important;
-  font-size: 1.1rem;
-  font-weight: 700;
   margin: 0;
-  transition: color .2s ease;
+  color: var(--ifm-color-content-secondary);
+  font-size: 0.9rem;
 }
 
-.nextCard:hover .nextCardTitle {
-  color: #d94c4c !important;
+/* RESPONSIVE : 1 seule colonne sous 996px */
+@media (max-width: 996px) {
+  .cardsRow > .col {
+    flex: 1 1 100%;
+    max-width: 100%;
+    padding: 0 8px; /* petit padding latéral sur mobile */
+  }
 }
