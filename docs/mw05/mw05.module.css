@@ -1,15 +1,17 @@
 .cardsGrid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
   gap: 32px 32px;
-  margin-top: 2rem;
+}
+
+.cardWrapper {
+  flex: 0 0 33.33333%;
+  max-width: 33.33333%;
+  display: flex;
 }
 
 .card {
-  width: 100%;
-  max-width: 520px;
-  min-width: 520px;
+  flex: 1;
   height: 125px !important;
   display: flex;
   flex-direction: column;
@@ -45,7 +47,7 @@
 }
 
 .card h3 {
-  margin: 0 0 0.35rem 0;
+  margin: 0 0 24px 0;
   font-size: 1.1rem;
   font-weight: 700;
   color: var(--ifm-color-content) !important;
