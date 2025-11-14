@@ -118,10 +118,13 @@
 }
 
 .main-wrapper,
-[class*="main-wrapper"] {
-  padding-right: 0 !important;
-  padding-left: 0 !important;
-  margin: 0 !important;
-  max-width: 100% !important;
+.docsWrapper,
+.docRoot {
   width: 100% !important;
+  max-width: 100% !important;
+  flex-grow: 1 !important;
+  flex-shrink: 1 !important; /* <- LE POINT LE PLUS IMPORTANT */
+  flex-basis: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
