@@ -14,19 +14,13 @@
   gap: 32px;
 }
 
-@media (max-width: 996px) {
-  .cardsGrid {
-    grid-template-columns: 1fr;
-  }
-}
-
 /* Cartes */
 .cardContainer {
   display: block;
   padding: 32px;
   height: 125px;
   border: 1px solid #2d2e30;
-  border-radius: 4px;
+  border-radius: 12px;
   text-decoration: none !important;
   background: #1b1b1d;
   overflow: hidden;
@@ -34,7 +28,7 @@
 }
 
 .cardContainer:hover {
-  border-color: #801a1a;
+  border-color: #d94d4c;
 }
 
 /* Titre */
@@ -74,7 +68,7 @@
 }
 
 .nextCard:hover {
-  border-color: #801a1a;
+  border-color: #d94d4c;
 }
 
 .nextTitle {
