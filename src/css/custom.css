@@ -31,11 +31,11 @@ html {
 }
 
 @media (min-width: 997px) {
-  .docItemCol {
+  body .docItemCol {
     max-width: 100% !important;
-    flex: 1 1 auto !important;
   }
 }
+
 
 .col.col--3:has(.theme-doc-toc-desktop) {
   max-width: 250px !important;
