@@ -34,6 +34,10 @@ html {
   width: 250px !important;
 }
 
+.theme-doc-main {
+  max-width: calc(100% - 250px) !important;
+}
+
 .navbar__link {
   color: white;
   transition: color 0.3s;
