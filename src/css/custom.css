@@ -31,10 +31,7 @@ html {
 }
 
 @media (min-width: 997px) {
-  html body .docItemCol,
-  html body .docItemCol.docItemCol,
-  html body .theme-doc-main-container .docItemCol,
-  html body .container .docItemCol {
+  [class*="docItemCol_"] {
     max-width: 100% !important;
     width: 100% !important;
     flex: 1 1 auto !important;
