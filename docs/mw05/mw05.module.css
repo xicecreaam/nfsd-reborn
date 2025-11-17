@@ -1,0 +1,71 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 calc(var(--ifm-spacing-horizontal) * -1);
+}
+
+.col[class*=col--] {
+    flex: 0 0 var(--ifm-col-width);
+}
+
+.margin-bottom--lg, .margin-vert--lg {
+    margin-bottom: 2rem !important;
+}
+
+.margin-top--lg {
+    margin-top: 2rem !important;
+}
+
+.col {
+    --ifm-col-width: 33.33333%;
+    margin-left: 0;
+    max-width: var(--ifm-col-width);
+}
+
+.col, .container {
+    padding: 0 var(--ifm-spacing-horizontal);
+    width: 100%;
+}
+
+.cardContainer {
+    --ifm-link-color: var(--ifm-color-emphasis-800);
+    --ifm-link-hover-color: var(--ifm-color-emphasis-700);
+    --ifm-link-hover-decoration: none;
+    border: 1px solid var(--ifm-color-emphasis-200);
+    box-shadow: 0 1.5px 3px 0 #00000026;
+    transition: all var(--ifm-transition-fast) ease;
+    transition-property: border, box-shadow;
+}
+
+.cardContainer:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 3px 6px 0 #0003;
+}
+
+.cardContainer :last-child {
+    margin-bottom: 0px;
+}
+
+.padding--lg {
+    padding: 2rem !important;
+}
+
+a:hover {
+    color: var(--ifm-link-hover-color);
+    text-decoration: var(--ifm-link-hover-decoration);
+}
+
+.cardTitle {
+    font-size: 1.2rem;
+}
+
+.cardDescription {
+    font-size: 0.8rem;
+}
+
+.text--truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
