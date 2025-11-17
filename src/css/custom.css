@@ -157,11 +157,9 @@
     padding: var(--ifm-footer-padding-vertical) var(--ifm-footer-padding-horizontal);
 }
 
-footer .theme-layout-footer-column:first-child .footer__items {
-  display: grid !important;
+.theme-layout-footer-column:first-child .footer__items {
+  display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  width: 100%;
-  gap: 0.5rem 1.25rem;
-  outline: 2px solid red !important;
+  width: 75%;
 }
 
