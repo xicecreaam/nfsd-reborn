@@ -63,6 +63,7 @@
 .theme-doc-sidebar-container {
   width: 250px !important;
   flex: 0 1 250px;
+  text-decoration: none;
 }
 
 .theme-doc-sidebar-container .menu__list-item {
