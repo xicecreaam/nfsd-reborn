@@ -28,11 +28,7 @@
   box-shadow: 0 4px 8px #0004;
 }
 
-.cardContainer p {
-  margin-bottom: var(--ifm-paragraph-margin-bottom) !important;
-}
-
-.cardContainer p:last-child {
+.cardContainer p.cardDescription:last-child {
   margin-bottom: var(--ifm-paragraph-margin-bottom) !important;
 }
 
