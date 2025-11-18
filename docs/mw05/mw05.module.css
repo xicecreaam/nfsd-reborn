@@ -13,6 +13,7 @@
 }
 
 .cardContainer {
+  color: white;
   --ifm-link-color: var(--ifm-color-emphasis-800);
   --ifm-link-hover-color: var(--ifm-color-emphasis-700);
   --ifm-link-hover-decoration: none;
@@ -22,12 +23,17 @@
   transition-property: border, box-shadow;
 }
 
+.cardContainer a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
 .cardContainer:hover {
   border-color: var(--ifm-color-primary);
   box-shadow: 0 4px 8px #0004;
 }
 
-.cardContainer :last-child {
+.cardContainer:last-child {
     margin-bottom: 0;
 }
 
