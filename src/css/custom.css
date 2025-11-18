@@ -53,8 +53,8 @@
       padding: 0.5rem 0.25rem 0.5rem 0.5rem;
     }
   }
-  .docMainContainer {
-    max-width: 100% !important;
+  .theme-doc-main > main[class^="docMainContainer"] {
+    max-width: none !important;
   }
   .theme-doc-sidebar-item.docSidebarContainer {
     width: 20%;
