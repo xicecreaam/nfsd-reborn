@@ -86,19 +86,6 @@
   overflow-x: hidden;
 }
 
-.menu__link {
-  line-height: 1.25;
-  font-weight: 600;
-  white-space: normal !important;
-  word-break: break-word !important;
-  display: flex;
-  align-items: center;
-  overflow-wrap: break-word;
-  text-overflow: ellipsis;
-  padding: 4px 8px;
-  margin: 2px 0;
-}
-
 .menu__caret {
   opacity: 0.8;
   transform: translateY(1px);
