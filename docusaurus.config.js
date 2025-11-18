@@ -73,7 +73,9 @@ const config = {
     ({
       image: 'img/nfsd-logo.png',
       colorMode: {
-        respectPrefersColorScheme: true,
+        defaultMode: 'dark',
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
       },
       navbar: {
         title: 'NFSD',
