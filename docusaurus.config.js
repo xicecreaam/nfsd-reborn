@@ -1,5 +1,4 @@
 import {themes as prismThemes} from 'prism-react-renderer';
-import Head from '@docusaurus/Head';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
