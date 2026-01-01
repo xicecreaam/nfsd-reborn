@@ -37,7 +37,7 @@ export default function Home() {
               (WIP) <Link to="/c" style={{ color: '#d94d4c' }}>Need for Speed: Carbon</Link> by <Link to="https://web.archive.org/web/20250422161151/https://www.speedrun.com/users/Artacer" style={{ color: '#d94d4c' }}>Artacer</Link> and  <Link to="https://www.speedrun.com/users/Cousin" style={{ color: '#d94d4c' }}>Cousin</Link>
             </li>
             <li style={{ marginBottom: '0.5rem' }}>
-              <Link to="/ps" style={{ color: '#d94d4c' }}>Need for Speed: ProStreet</Link> by <Link to="https://www.speedrun.com/users/icecreaam" style={{ color: '#d94d4c' }}>IceCream</Link>
+              (WIP) <Link to="/ps" style={{ color: '#d94d4c' }}>Need for Speed: ProStreet</Link> by <Link to="https://www.speedrun.com/users/icecreaam" style={{ color: '#d94d4c' }}>IceCream</Link>
             </li>
             <li style={{ marginBottom: '0.5rem' }}>
               (WIP) <Link to="/uc" style={{ color: '#d94d4c' }}>Need for Speed: Undercover </Link>
