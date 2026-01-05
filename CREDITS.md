@@ -2,28 +2,28 @@
 The following individuals have contributed to the project in a notable way.
 
 # Underground 1
-LokyZen
+* LokyZen
 
 # Underground 2
-Jigsaw
-SlivenKage
+* Jigsaw
+* SlivenKage
 
 # Most Wanted Guide
-IceCream
-Slivenkage
+* IceCream
+* Slivenkage
 
 # Carbon
-Cousin
-Artacer (i hope)
+* Cousin
+* Artacer (i hope)
 
 # ProStreet
-IceCream
-Seven
+* IceCream
+* Seven
 
 # Undercover
-CrayZeei
-lerep (i guess ?)
+* CrayZeei
+* lerep (i guess ?)
 
 # The Run
-SlivenKage
-ItzSamOnPC
+* SlivenKage
+* ItzSamOnPC
