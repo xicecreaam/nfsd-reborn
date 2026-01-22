@@ -109,11 +109,10 @@ const config = {
             ],
           },
           {
-            title: 'Placeholder',
+            title: 'More NFS docs may be',
             items: [
               {
-                label: 'X',
-                to: '/blog',
+                label: 'added if necessary',
               },
             ],
           },
