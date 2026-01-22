@@ -63,7 +63,7 @@ const config = {
         title: '‎',
         logo: {
           alt: 'NFSD logo',
-          src: 'img/nfsd-logo.png',},
+          src: 'img/nfsdr-logo.gif',},
           
         items: [
           {to: '/ug1', label: 'Underground 1', position: 'left' },
