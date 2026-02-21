@@ -11,9 +11,9 @@ const config = {
   },
 
   url: 'https://xicecreaam.github.io',
-  baseUrl: '/nfsd-reborn/',
+  baseUrl: '/nfsd-recreation/',
   organizationName: 'xicecreaam',
-  projectName: 'nfsd-reborn',
+  projectName: 'nfsd-recreation',
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
