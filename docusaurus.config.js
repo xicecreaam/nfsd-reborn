@@ -53,7 +53,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: 'img/nfsd-logo.png',
+      image: 'img/nfsd-logo.gif',
       colorMode: {
         defaultMode: 'dark',
         disableSwitch: true,
